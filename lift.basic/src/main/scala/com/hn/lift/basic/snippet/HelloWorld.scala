@@ -13,6 +13,8 @@ class HelloWorld {
 
   // bind the date into the element with id "time"
   def howdy = "#time *" #> date.map(_.toString)
+  
+  
 
   /*
    lazy val date: Date = DependencyFactory.time.vend // create the date via factory
